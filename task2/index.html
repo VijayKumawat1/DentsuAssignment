@@ -276,7 +276,8 @@
 
         var frameTl2 = gsap.timeline()
         .to(".frameWrapperInner", {x: -600, ease: Power2.easeInOut, duration: 2,})
-        .to(".frame3 h2 span", {opacity: 1, color: "#ffffff", stagger: 0.1, ease: Power2.easeIn, duration: 0.5}, "-=1")
+        .to(".frame3 h2 span", {opacity: 1, stagger: 0.1, ease: Power2.easeIn, duration: 0.5}, "-=1")
+        .to(".frame3 h2 span", {color: "#ffffff", stagger: 0.1, ease: Power2.easeIn, duration: 0.5}, "-=2")
 
         masterTimeLine = new gsap.timeline({})
         .add(frameTl1, 0)
