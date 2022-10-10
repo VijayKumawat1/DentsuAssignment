@@ -34,7 +34,7 @@ body{display: flex;align-items: center;justify-content: center;height: 100%;}
 .mainSvgFrame{display: flex;align-items: center;}
 .newBuildTxt{padding: 22px 22px 27px 22px;text-align: center;display: flex;align-items: flex-end;justify-content: center;}
 .frame h2{font-size: 22px;font-weight: 500;color: #ffffff;text-align: left;max-width: 191px;margin: 0 auto 20px auto;}
-.frame p{font-size: 9px;color: #ffffff;font-weight: 300;margin: 15px 0 0 0;}
+.frame p{font-size: 8px;color: #ffffff;font-weight: 300;margin: 15px 0 0 0;}
 .button{padding: 7px 12px;color: #20245a;font-size: 14px;background: #9fe30e;display: inline-block;text-decoration: none;font-weight: 500;transition: 0.3s;}
 .button:after{content: "";position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
 .button img{width: 13px;transition: 0.3s;}
@@ -48,6 +48,6 @@ body{display: flex;align-items: center;justify-content: center;height: 100%;}
 
 .frame3.newBuildTxt{padding-bottom: 10px;}
 .frame3 .logo{width: 100px;margin-bottom: 15px;}
-.frame3 h2{font-size: 18px;max-width: initial;text-align: center;margin-bottom: 10px;}
+.frame3 h2{font-size: 18px;max-width: initial;text-align: center;margin-bottom: 16px;}
 .frame3 h2 span{opacity: 0;color: #9fe30e;font-style: normal;}
 .frame3 p{margin-top: 10px;}
